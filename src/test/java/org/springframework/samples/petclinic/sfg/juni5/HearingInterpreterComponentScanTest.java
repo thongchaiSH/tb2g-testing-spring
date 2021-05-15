@@ -11,7 +11,7 @@ import org.springframework.samples.petclinic.sfg.LaurelWordProducer;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ActiveProfiles("component-scan")
 @SpringJUnitConfig(classes = HearingInterpreterComponentScanTest.TestConfig.class)

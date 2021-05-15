@@ -8,7 +8,7 @@ import org.springframework.samples.petclinic.sfg.LaureConfig;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @ActiveProfiles("base-test")
 @SpringJUnitConfig(classes = {BaseConfig.class, LaureConfig.class})
